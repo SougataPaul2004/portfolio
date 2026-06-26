@@ -669,7 +669,13 @@ button:focus-visible {
     padding: 16px 32px;
     border-bottom: 1px solid var(--border);
   }
-  .nav-cta { display: none; }
+  .nav-wrap { gap: 14px; }
+  .nav-cta {
+    display: inline-block;
+    margin-left: auto;
+    padding: 8px 14px;
+    font-size: 13px;
+  }
   .menu-toggle { display: flex; }
   .skills-grid.cols-4, .skills-grid.cols-3 { grid-template-columns: 1fr; }
   .skills-tabs { gap: 8px; }
