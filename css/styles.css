@@ -201,7 +201,7 @@ button:focus-visible {
    HERO
    ========================================================= */
 .hero {
-  min-height: calc(100vh - var(--header-h));
+  min-height: clamp(560px, calc(100vh - var(--header-h)), 880px);
   display: flex;
   align-items: center;
   padding: 28px 0;
